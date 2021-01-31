@@ -1,0 +1,25 @@
+---
+taps:
+  # - homebrew/boneyard
+  - homebrew/cask
+  - homebrew/cask-versions
+  - homebrew/core
+
+packages:
+  - { name: htop, state: present }
+  - { name: jq, state: present }
+
+  # - { name: git, state: present }
+  # - { name: hugo, state: present }
+  # - { name: mercurial, state: present }
+  # - { name: mas, state: present } # mas-cli(mac apple store)
+  # - { name: tree, state: present }
+  # - { name: sassc, state: present }
+  # - { name: nkf, state: present }
+  # - { name: fontconfig, state: present }  # for fc-cache
+  # - { name: node, state: present }
+  # - { name: nodebrew, state: present }
+  # - { name: yarn, state: present }
+  # - { name: brotli, state: present }
+  # - { name: mozjpeg, state: present }
+  # - { name: maven, state: present }

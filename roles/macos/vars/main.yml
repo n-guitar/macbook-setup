@@ -1,0 +1,11 @@
+---
+
+settings:
+  - domain: com.apple.AppleMultitouchTrackpad
+    key: Clicking
+    type: bool
+    value: TRUE
+  - domain: com.apple.AppleMultitouchTrackpad
+    key: TrackpadRightClick
+    type: int
+    value: 2

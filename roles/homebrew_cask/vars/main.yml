@@ -1,0 +1,18 @@
+---
+
+packages:
+# tools
+  - { name: alfred, state: present }
+  - { name: google-japanese-ime, state: present }
+  - { name: kindle, state: present }
+  - { name: shiftit, state: present }
+
+# develop
+  - { name: postman, state: present }
+
+# browser
+  - { name: google-chrome, state: present }
+  - { name: firefox, state: present }
+
+# collaboration tools
+  - { name: slack, state: present }

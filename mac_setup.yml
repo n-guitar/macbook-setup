@@ -1,0 +1,10 @@
+---
+
+- name: M1 Macbook Setup
+  hosts: localhost
+  connection: local
+  gather_facts: yes
+  roles:
+    # - homebrew
+    # - homebrew_cask
+    - macos
