@@ -38,3 +38,6 @@ $ '
 # pyenv
 eval "$(pyenv init -)"
 export PATH=$HOME/.pyenv/shims:$PATH
+
+# history補完
+source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
