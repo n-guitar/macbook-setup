@@ -14,8 +14,6 @@ SAVEHIST=10000
 
 # よく使うAlias
 alias ll='ls -la'
-## arm版vscodeがstableになるまで
-alias code='code-insiders'
 
 # homebrew
 export PATH=$PATH:/opt/homebrew/bin:/opt/homebrew/sbin
@@ -23,10 +21,10 @@ export PATH=$PATH:/opt/homebrew/bin:/opt/homebrew/sbin
 # Git
 fpath=(~/.zsh $fpath)
 if [ -f ${HOME}/.zsh/git-completion.zsh ]; then
-       zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.zsh
+    zstyle ':completion:*:*:git:*' script ~/.zsh/git-completion.zsh
 fi
 if [ -f ${HOME}/.zsh/git-prompt.sh ]; then
-       source ${HOME}/.zsh/git-prompt.sh
+    source ${HOME}/.zsh/git-prompt.sh
 fi
 GIT_PS1_SHOWDIRTYSTATE=true
 GIT_PS1_SHOWUNTRACKEDFILES=true
